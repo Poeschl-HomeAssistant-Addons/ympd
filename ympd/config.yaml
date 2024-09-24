@@ -15,7 +15,7 @@ arch:
 image: ghcr.io/poeschl-homeassistant-addons/ympd-{arch}
 init: false
 ports:
-  6680/tcp: 
+  6680/tcp:
 ports_description:
   6680/tcp: Web Frontend (Not needed with ingress feature)
 options:
